@@ -1,0 +1,13 @@
+.promo {
+    min-height: 594px;
+    background-color: #87509c;
+    padding-top: 60px;
+    &__header {
+        margin-top: 140px;
+        color: #fff;
+        text-align: center;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+}

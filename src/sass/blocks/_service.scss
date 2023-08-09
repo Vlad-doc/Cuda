@@ -1,0 +1,39 @@
+.service {
+    background-color: #17c2a4;
+    padding: 99px 0 76px 0;
+    &__descr {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+    }
+    &__wrap {
+        margin-top: 79px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        width: 203px;
+    }
+    &__icons {
+        min-height: 135px;
+        text-align: center;
+    }
+    &__subtitle {
+        margin-top: 31px;
+        font-size: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__info {
+        margin-top: 7px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}

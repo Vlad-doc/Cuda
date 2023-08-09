@@ -1,0 +1,15 @@
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    &_white {
+        color: #ffffff;
+    }
+    hr {
+        width: 88px;
+        margin-top: 6px;
+        height: 4px;
+        background-color: #c8d9e5;
+        border: none;
+    }
+}

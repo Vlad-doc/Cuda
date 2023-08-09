@@ -1,0 +1,54 @@
+.forms {
+    background-color: #3c5499;
+    padding: 117px 0;
+    &__descr {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        width: 862px;
+        text-align: center;
+        margin: 80px auto;
+    }
+    &__mail {
+        display: flex;
+        justify-content: space-between;
+        input {
+            width: 420px;
+            height: 55px;
+            padding: 20px 0 20px 25px;
+            background-color: #273a71;
+            border-radius: 5px;
+            outline: none;
+            color: #ffffff;
+            font-size: 18px;
+            border: none;
+            &::placeholder {
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+    &__message {
+        margin-top: 25px;
+        textarea {
+            width: 100%;
+            min-height: 200px;
+            padding: 20px 0 20px 25px;
+            background-color: #273a71;
+            border-radius: 5px;
+            outline: none;
+            color: #ffffff;
+            font-size: 18px;
+            border: none;
+            &::placeholder {
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+}

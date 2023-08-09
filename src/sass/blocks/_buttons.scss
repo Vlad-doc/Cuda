@@ -1,0 +1,26 @@
+.button {
+    display: block;
+    margin: 0 auto;
+    width: 292px;
+    height: 66px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    &:hover {
+        opacity: 0.7;
+    }
+    &_orange {
+        margin-top: 55px;
+        background-color: #eb7d4b;
+    }
+    &_green {
+        background-color: #17c2a4;
+    }
+    &_blue {
+        background-color: #30bae7;
+    }
+}

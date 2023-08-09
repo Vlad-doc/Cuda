@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 0 40px;
+    &__information {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+    }
+    &__item {
+        list-style-type: none;
+        margin-right: 30px;
+
+        a {
+        text-transform: uppercase;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 400;
+        transition: 0.5s all;
+        &:hover {
+            background-color: #643a79;
+            text-decoration: none;
+            padding: 7px 16px;
+            border-radius: 5px;
+        }
+        }
+    }
+    .hamburger {
+        display: none;
+    }
+}
